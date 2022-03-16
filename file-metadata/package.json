@@ -1,0 +1,21 @@
+{
+  "name": "file-metadata",
+  "version": "1.0.0",
+  "description": "API project for freeCodeCamp",
+  "main": "server/index.js",
+  "author": "Esteban VM",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
